@@ -250,7 +250,7 @@
     text-transform: uppercase;
     letter-spacing: 0.01em;
     font-weight: 600;
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1;
     color: white;
   }
@@ -526,6 +526,17 @@ hr {
   font-weight: bolder;
 }
 
+#kickerPara {
+    word-spacing: -2px;
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: justify;
+    color: #464646;
+    font-size: 22px;
+  }
+
 @media screen and (max-width: 992px) {
   .sup {
     background-color: #E0E0E0;
@@ -560,6 +571,7 @@ hr {
   }
 
   #kickerPara {
+    word-spacing: -2px;
     padding-top: 10px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -576,6 +588,60 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
+  .sup {
+    background-color: #E0E0E0;
+    height: 1100px;
+  }
+
+  #tagLine {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: x-large;
+    letter-spacing: 0.33em;
+    line-height: 1.0em;
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .health {
+    color: #e91e63;
+    font-size: 1.0em;
+    font-weight: bolder;
+  }
+
+  .customStyle {
+    margin-top: 40px;
+    margin-bottom: 7%;
+  }
+
+  #kicker {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    color: black;
+  }
+
+  .kicker {
+    margin: 0 auto;
+  }
+
+  #kickerPara {
+    word-spacing: -2px;
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: justify;
+    color: #464646;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 430px) {
   .sup {
     background-color: #E0E0E0;
     height: 1100px;
@@ -684,17 +750,13 @@ footer {
 .sendButton {
     text-align: left;
   }
-  
+
 @media screen and (min-width: 0px) {
   .form-horizontal {
     margin-top: 3%;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 2%;
-  }
-
-  .sendButton {
-    text-align: center;
   }
 }
 
