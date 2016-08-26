@@ -735,6 +735,11 @@ footer {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 480px) {
+  .list-inline > li.footer-menu-divider {
+    display: none;
+  }
+
 #steff {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
